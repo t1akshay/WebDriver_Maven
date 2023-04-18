@@ -40,6 +40,8 @@ public class LoginTest {
 		driver.findElement(By.name("login")).click();
 		
 		System.out.println("Logging into Facebook Login");
+		
+		System.out.println("successfully logged in to facebook");
 	}
 	
 	@AfterTest
